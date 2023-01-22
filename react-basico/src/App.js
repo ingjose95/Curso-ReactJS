@@ -6,6 +6,9 @@ import './App.css';
 import ComponenteClase from './components/practicas/ComponenteClase'
 import ComponenteFuncional from './components/practicas/ComponenteFuncional'
 import Propiedades from './components/practicas/propiedades/Propiedades'
+import Estado from './components/Estado'
+import Estados from './components/Estados';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
 
 function App() {
   return (
@@ -55,6 +58,10 @@ function App() {
           funcion={(num) => num*num}
           componenteReact= {<Componente msg='Soy un componente pasado como prop'></Componente>}>
         </Propiedades> */}
+        <hr></hr>
+        <Estado></Estado>
+        <Estados></Estados>
+        <RenderizadoCondicional></RenderizadoCondicional>
       </header>
     </div>
   );
