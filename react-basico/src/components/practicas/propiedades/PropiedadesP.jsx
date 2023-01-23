@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 
-export default function Propiedades (props) {
+export default function PropiedadesP (props) {
 
 
     return (
@@ -23,13 +23,13 @@ export default function Propiedades (props) {
     )
 }
 
-Propiedades.defaultProps = {
+PropiedadesP.defaultProps = {
 
     porDefecto: 'Hola, soy un mensaje por defecto.'
 
 }
 
-Propiedades.propTypes = {
+PropiedadesP.propTypes = {
 
     numero: PropTypes.number.isRequired,
 }

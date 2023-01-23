@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ComponenteFuncional( { msg }) {
+function ComponenteFuncional( { mensaje }) {
 
     return (
 
-        <h1>{msg}</h1>
+        <h1>{mensaje}</h1>
 
 
     )
