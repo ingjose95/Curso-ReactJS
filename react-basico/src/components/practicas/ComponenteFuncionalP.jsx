@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ComponenteFuncional(props) {
+function ComponenteFuncionalP(props) {
 
 
     return(
@@ -13,4 +13,4 @@ function ComponenteFuncional(props) {
     )
 }
 
-export default ComponenteFuncional;
+export default ComponenteFuncionalP;

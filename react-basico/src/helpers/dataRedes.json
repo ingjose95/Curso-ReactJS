@@ -1,0 +1,28 @@
+{
+    "RedesSociales": [
+        {
+            "id": 1,
+            "nombre": "Facebook",
+            "web": "https://es-la.facebook.com/"
+        },
+
+        {
+            "id": 2,
+            "nombre": "Twitter",
+            "web": "https://twitter.com/"
+        },
+
+        {
+            "id": 3,
+            "nombre": "TikTok",
+            "web": "https://www.tiktok.com/es/"
+        },
+
+        {
+            "id": 4,
+            "nombre": "Youtube",
+            "web": "https://www.youtube.com/"
+        }
+
+    ]
+}

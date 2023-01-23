@@ -1,21 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+// import RenderizadoElementos from './components/RenderizadoElementos';
+import RenderizadoElementosRedesSociales from './components/RenderizadoElementosRedesSociales';
+import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/EventosClase';
 // import Componente from './components/Componente'
 // import ComponenteFuncional from './components/ComponenteFuncional'
 // import Propiedades from './components/propiedades/Propiedades';
-import ComponenteClase from './components/practicas/ComponenteClase'
-import ComponenteFuncional from './components/practicas/ComponenteFuncional'
-import Propiedades from './components/practicas/propiedades/Propiedades'
-import Estado from './components/Estado'
-import Estados from './components/Estados';
-import RenderizadoCondicional from './components/RenderizadoCondicional';
+// import ComponenteClase from './components/practicas/ComponenteClase'
+// import ComponenteFuncional from './components/practicas/ComponenteFuncional'
+// import Propiedades from './components/practicas/propiedades/Propiedades'
+// import Estado from './components/Estado'
+// import Estados from './components/Estados';
+// import RenderizadoCondicional from './components/RenderizadoCondicional';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Editar <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -26,8 +29,8 @@ function App() {
         >
           Learn React
         <hr></hr>
-        </a>
-        <ComponenteClase saludo='Hola, estoy saludando desde una props'>
+        </a> */}
+        {/* <ComponenteClase saludo='Hola, estoy saludando desde una props'>
         </ComponenteClase>
         <ComponenteFuncional></ComponenteFuncional>
 
@@ -42,7 +45,7 @@ function App() {
           componenteReact={<ComponenteFuncional mensaje='Estoy saludando desde una propiedad'></ComponenteFuncional>}>
           
 
-        </Propiedades>
+        </Propiedades> */}
 
         
         
@@ -58,10 +61,24 @@ function App() {
           funcion={(num) => num*num}
           componenteReact= {<Componente msg='Soy un componente pasado como prop'></Componente>}>
         </Propiedades> */}
-        <hr></hr>
+        {/* <hr></hr>
         <Estado></Estado>
         <Estados></Estados>
-        <RenderizadoCondicional></RenderizadoCondicional>
+        <hr></hr>
+        <RenderizadoCondicional></RenderizadoCondicional> */}
+
+        {/* <RenderizadoElementos></RenderizadoElementos> */}
+        <secction>
+        <hr></hr>
+          <RenderizadoElementosRedesSociales></RenderizadoElementosRedesSociales>
+        <hr></hr>
+        <EventosClaseES6></EventosClaseES6>
+        <hr></hr>
+        <EventosClaseES7></EventosClaseES7>
+        <hr></hr>
+        <MasSobreEventos></MasSobreEventos>
+        </secction>
+        
       </header>
     </div>
   );
