@@ -12,6 +12,8 @@ import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/
 // import Estado from './components/Estado'
 // import Estados from './components/Estados';
 // import RenderizadoCondicional from './components/RenderizadoCondicional';
+import Padre from './components/ComunicacionEntreComponentes';
+import CicloVida from './components/CicloVida';
 
 function App() {
   return (
@@ -75,6 +77,11 @@ function App() {
         <EventosClaseES7></EventosClaseES7>
         <hr></hr>
         <MasSobreEventos></MasSobreEventos>
+        <hr/>
+        <Padre/>
+        <hr/>
+        <CicloVida/>
+
         </section>
       </header>
 
