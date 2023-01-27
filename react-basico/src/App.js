@@ -14,6 +14,8 @@ import { EventosClaseES6, EventosClaseES7, MasSobreEventos } from './components/
 // import RenderizadoCondicional from './components/RenderizadoCondicional';
 import Padre from './components/ComunicacionEntreComponentes';
 import CicloVida from './components/CicloVida';
+//import AjaxApis from './components/AjaxApis';
+import AjaxApisPractica from './components/practicas/AjaxApisPractica';
 
 function App() {
   return (
@@ -81,6 +83,9 @@ function App() {
         <Padre/>
         <hr/>
         <CicloVida/>
+        <hr/>
+        {/* <AjaxApis/> */}
+        <AjaxApisPractica/>
 
         </section>
       </header>
