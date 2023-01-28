@@ -16,6 +16,8 @@ import Padre from './components/ComunicacionEntreComponentes';
 import CicloVida from './components/CicloVida';
 //import AjaxApis from './components/AjaxApis';
 import AjaxApisPractica from './components/practicas/AjaxApisPractica';
+import ContadorHooks from './components/ContadorHooks';
+import SesionHooks from './components/SesionHooks';
 
 function App() {
   return (
@@ -34,6 +36,10 @@ function App() {
         >
           Learn React
         </a>
+        <hr/>
+        <SesionHooks/>
+        <hr/>
+        <ContadorHooks />
         <hr></hr>
         <ComponenteClase saludo='Hola, estoy saludando desde una props'></ComponenteClase>
         <hr></hr>
