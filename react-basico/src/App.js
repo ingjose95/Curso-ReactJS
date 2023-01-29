@@ -18,6 +18,8 @@ import CicloVida from './components/CicloVida';
 import AjaxApisPractica from './components/practicas/AjaxApisPractica';
 import ContadorHooks from './components/ContadorHooks';
 import SesionHooks from './components/SesionHooks';
+import UsoUseEffect from './components/UsoUseEffect';
+import RelojHooks from './components/RelojHooks';
 
 function App() {
   return (
@@ -36,6 +38,10 @@ function App() {
         >
           Learn React
         </a>
+        <hr/>
+        <RelojHooks/>
+        <hr/>
+        <UsoUseEffect />
         <hr/>
         <SesionHooks/>
         <hr/>
