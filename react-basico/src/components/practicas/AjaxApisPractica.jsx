@@ -22,12 +22,12 @@ export default class AjaxApisPractica extends Component{
         fetch(url)
             .then((res) => res.json())
             .then((data) => {
-                console.log('Data:', data);
+                //console.log('Data:', data);
                 data.results.forEach((el) => {
                     fetch(el.url)
                         .then((res) => res.json())
                         .then((json) => {
-                            console.log(json);
+                            //console.log(json);
                             let pokemon = {
                                 id: json.id,
                                 name: json.name,

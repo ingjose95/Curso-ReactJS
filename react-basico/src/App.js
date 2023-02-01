@@ -20,6 +20,7 @@ import ContadorHooks from './components/ContadorHooks';
 import SesionHooks from './components/SesionHooks';
 import UsoUseEffect from './components/UsoUseEffect';
 import RelojHooks from './components/RelojHooks';
+import AjaxHooks from './components/AjaxHooks';
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
         >
           Learn React
         </a>
+        <hr></hr>
+        <AjaxHooks/>
         <hr/>
         <RelojHooks/>
         <hr/>
