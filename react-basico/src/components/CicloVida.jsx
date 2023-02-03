@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 
 class Reloj extends Component{
 
+    // eslint-disable-next-line no-useless-constructor
     constructor(props) {
         super(props)
 }

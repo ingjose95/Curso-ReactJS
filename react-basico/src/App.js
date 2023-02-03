@@ -21,6 +21,8 @@ import SesionHooks from './components/SesionHooks';
 import UsoUseEffect from './components/UsoUseEffect';
 import RelojHooks from './components/RelojHooks';
 import AjaxHooks from './components/AjaxHooks';
+import HooksPersonalizados from './components/HooksPersonalizados';
+
 
 function App() {
   return (
@@ -39,7 +41,9 @@ function App() {
         >
           Learn React
         </a>
-        <hr></hr>
+        <hr/>
+        <HooksPersonalizados/>
+        <hr/>
         <AjaxHooks/>
         <hr/>
         <RelojHooks/>
