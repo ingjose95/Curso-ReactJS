@@ -22,6 +22,10 @@ import UsoUseEffect from './components/UsoUseEffect';
 import RelojHooks from './components/RelojHooks';
 import AjaxHooks from './components/AjaxHooks';
 import HooksPersonalizados from './components/HooksPersonalizados';
+import HooksPersonalizadoContador from './components/HooksPersonalizadoContador';
+import TodoApp from './components/TodoApp';
+import CounterApp from './components/CounterApp';
+import CounterApp10 from './components/CounterApp10';
 
 
 function App() {
@@ -41,6 +45,14 @@ function App() {
         >
           Learn React
         </a>
+        <hr/>
+        <CounterApp10 />
+        <hr />
+        <CounterApp/>
+        <hr/>
+        <TodoApp />
+        <hr/>
+        <HooksPersonalizadoContador />
         <hr/>
         <HooksPersonalizados/>
         <hr/>
